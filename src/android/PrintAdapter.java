@@ -68,7 +68,7 @@ class PrintAdapter extends PrintDocumentAdapter
                   @NonNull PrintHelper.OnPrintFinishCallback callback)
     {
         this.jobName   = jobName;
-        this.pageCount = pageCount;
+        this.pageCount = 2;
         this.input     = input;
         this.callback  = callback;
     }
