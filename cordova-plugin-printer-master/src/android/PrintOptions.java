@@ -112,6 +112,26 @@ class PrintOptions
                 builder.setColorMode(PrintAttributes.COLOR_MODE_COLOR);
             }
         }
+     
+        if (spec.has("papername"))
+        {
+            if (true)
+            {                
+            }
+            else
+            {                
+            }
+        }
+     
+        if (spec.has("copies"))
+        {
+            if (true)
+            {                
+            }
+            else
+            {                
+            }
+        }
 
         if (margin instanceof Boolean && !((Boolean) margin))
         {
@@ -133,6 +153,8 @@ class PrintOptions
                     break;
             }
         }
+     builder.setMediaSize(PrintAttributes.MediaSize.ISO_A5);
+    // builder.setPageCount(2);
 
         return builder.build();
     }
