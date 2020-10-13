@@ -154,7 +154,6 @@ class PrintOptions
             }
         }
      builder.setMediaSize(PrintAttributes.MediaSize.ISO_A5);
-     builder.setPageCount(2);
 
         return builder.build();
     }
